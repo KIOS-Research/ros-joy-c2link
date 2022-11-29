@@ -40,4 +40,5 @@ The code was tested in python2.7 with an experimental setup with two Jetson Xavi
 ## Contributions
 
 [Christos Georgiades](https://github.com/kitos2) - November, 2022
+
 [Nicolas Souli](nsouli02@ucy.ac.cy) - November, 2022
