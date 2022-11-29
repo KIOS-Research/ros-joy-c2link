@@ -5,8 +5,7 @@ Multi-system database logging and synchronization for ROS
 
 - **[Introduction](#Dependencies)**<br>
 - **[Installation](#Installation)**<br>
-- **[Logging](#Logging)**<br>
-- **[Synchronization](#Synchronization)**<br>
+- **[C2Link](#C2Link)**<br>
 - **[Contributions](#Contributions)**<br>
 
 ## Dependencies
