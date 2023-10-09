@@ -1,0 +1,12 @@
+[Unit]
+Description=multimaster-demo-12-7-2022
+
+[Service]
+User=root
+
+After=network.target
+WorkingDirectory=/home/kios/Documents/remote_c2link_basestation
+ExecStart=/bin/bash -c './autostartService.sh >> autostartService.log'
+
+[Install]
+WantedBy=multi-user.target

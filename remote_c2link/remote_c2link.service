@@ -1,0 +1,13 @@
+[Unit]
+Description=remote joystick
+
+[Service]
+User=root
+
+After=network.target
+WorkingDirectory=~/Documents/remote_c2link
+
+ExecStart=/bin/bash -c './autostartService.sh >> autostartService.log'
+
+[Install]
+WantedBy=multi-user.target
